@@ -54,9 +54,7 @@ def fetch_listing_urls(base_url):
 def parse_numeric_value(value, unit=None):
     if unit:
         value = value.split(unit)[0]
-    # Remove all non-numeric characters except for comma and period
     value = re.sub(r"[^\d,\.]", "", value)
-    # Replace comma with period if it's the decimal separator
     value = value.replace(',', '.')
     return value
 
@@ -209,7 +207,12 @@ def save_to_csv(data, filename):
     print(f'Data saved to {filename}')
 
 def main():
-    base_url = 'https://asunnot.oikotie.fi/myytavat-asunnot?locations=%5B%5B5695451,4,%22Kalasatama,%20Helsinki%22%5D%5D&cardType=100&roomCount%5B%5D=2'
+    use_default = input('Do you want to use the default URL? (yes/no): ').strip().lower()
+    if use_default == 'yes':
+        base_url = 'https://asunnot.oikotie.fi/myytavat-asunnot?locations=%5B%5B5695451,4,%22Kalasatama,%20Helsinki%22%5D%5D&cardType=100&roomCount%5B%5D=2'
+    else:
+        base_url = input('Please enter the listings page URL: ')
+
     listing_urls = fetch_listing_urls(base_url)
 
     all_properties = []
