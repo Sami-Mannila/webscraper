@@ -1,5 +1,4 @@
 # Real Estate Property Listings Scraper
-Author: Sami Mannila
 
 This project contains scripts to scrape property listings and details from a real estate website. The data is saved into CSV files for further analysis or processing.
 
