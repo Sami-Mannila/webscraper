@@ -1,44 +1,63 @@
 Title;Price (€);Size (m²);Address;Description;Building Year;Apartment Type;Debt-free Price (€);Maintenance Charge (€ / month);Living Area (m²);Rooms;Floor;Total Floors;District;City
-Lahnaruohontie 7 A, Lauttasaari, Helsinki●1h, avok, kph, alkovi;189880;27;Lahnaruohontie 7 A, Lauttasaari, Helsinki;1h, avok, kph, alkovi;1964;Kerrostalo;189880;126.90;27;1;2;4;Lauttasaari;Helsinki
-Katajaharjuntie 2-4 A 58, Lauttasaari, Helsinki●1h, avok, kph/wc;249000;26;Katajaharjuntie 2-4 A 58, Lauttasaari, Helsinki;1h, avok, kph/wc;1963;Kerrostalo;249000;N/A;26;1;6;6;Lauttasaari;Helsinki
-Lauttasaarentie 13, Lauttasaari, Helsinki●1h, kk, kph;186000;24.5;Lauttasaarentie 13, Lauttasaari, Helsinki;1h, kk, kph;1954;Kerrostalo;186000;134.75;24.5;1;4;4;Lauttasaari;Helsinki
-Lauttasaarentie 10 C, Lauttasaari, Helsinki●1h,kk,kh;142000;22;Lauttasaarentie 10 C, Lauttasaari, Helsinki;1h,kk,kh;1943;Kerrostalo;142000;107.80;22;1;3;3;Lauttasaari;Helsinki
-Isokaari 6, Lauttasaari, Helsinki●1h, kk;168000;24;Isokaari 6, Lauttasaari, Helsinki;1h, kk;1939;Kerrostalo;168000;166.40;24;1;1;5;Lauttasaari;Helsinki
-Isokaari 7, Lauttasaari, Helsinki●1H, KK, KPH;159000;25;Isokaari 7, Lauttasaari, Helsinki;1H, KK, KPH;1945;Kerrostalo;159000;162;25;1;4;4;Lauttasaari;Helsinki
-Hakolahdentie 24, Lauttasaari, Helsinki●1H, IKK.KK, KPH;153000;30;Hakolahdentie 24, Lauttasaari, Helsinki;1H, IKK.KK, KPH;N/A;Kerrostalo;153000;234;30;1;N/A;N/A;Lauttasaari;Helsinki
-Hakolahdentie 24 A, Lauttasaari, Helsinki●1h;155000;30;Hakolahdentie 24 A, Lauttasaari, Helsinki;1h;1973;Kerrostalo;155000;234;30;1;1;2;Lauttasaari;Helsinki
-Gyldenintie 1, Lauttasaari, Helsinki●1h, avok;187000;29.5;Gyldenintie 1, Lauttasaari, Helsinki;1h, avok;1954;Kerrostalo;187000;162.25;29.5;1;2;4;Lauttasaari;Helsinki
-Särkiniementie 3 b, Lauttasaari, Helsinki●1h, avok, kph, et, ransk. parveke;195000;27.5;Särkiniementie 3 b, Lauttasaari, Helsinki;1h, avok, kph, et, ransk. parveke;2024;Kerrostalo;195000;104.50;27.5;1;2;7;Lauttasaari;Helsinki
-Pohjoiskaari 29, Lauttasaari, Helsinki●1h, kk, eteinen, kph/wc, parveke;160000;25.5;Pohjoiskaari 29, Lauttasaari, Helsinki;1h, kk, eteinen, kph/wc, parveke;1975;Kerrostalo;160000;178.50;25.5;1;1;3;Lauttasaari;Helsinki
-Lahnaruohontie 4 C, Lauttasaari, Helsinki●1h+avok+kph;162000;28.5;Lahnaruohontie 4 C, Lauttasaari, Helsinki;1h+avok+kph;1964;Kerrostalo;162000;145.35;28.5;1;1;4;Lauttasaari;Helsinki
-Lokkikuja 1 A, Lauttasaari, Helsinki●1h, kk, kph, et, parveke (yht. järj. muk. 1h+kk);249000;31.4;Lokkikuja 1 A, Lauttasaari, Helsinki;1h, kk, kph, et, parveke (yht. järj. muk. 1h+kk);1956;Kerrostalo;249000;194.68;31.4;1;2;3;Lauttasaari;Helsinki
-Koillisväylä 9b A, Lauttasaari, Helsinki●1h, kk,kph, ranskalainen parveke (yj: 1 h+kk);179000;30;Koillisväylä 9b A, Lauttasaari, Helsinki;1h, kk,kph, ranskalainen parveke (yj: 1 h+kk);1961;Kerrostalo;179000;202.50;30;1;3;5;Lauttasaari;Helsinki
-Hakolahdenkuja 4 A, Lauttasaari, Helsinki●1h, avok, kph;219000;30;Hakolahdenkuja 4 A, Lauttasaari, Helsinki;1h, avok, kph;1960;Luhtitalo;219000;363;30;1;2;2;Lauttasaari;Helsinki
-Otavantie 12, Lauttasaari, Helsinki●1h + kk + p;229000;27.5;Otavantie 12, Lauttasaari, Helsinki;1h + kk + p;1963;Kerrostalo;229000;176;27.5;1;1;4;Lauttasaari;Helsinki
-Lauttasaarenmäki 4 A, Lauttasaari, Helsinki●oh/mh, avok, kph/wc, parveke;269000;29.5;Lauttasaarenmäki 4 A, Lauttasaari, Helsinki;oh/mh, avok, kph/wc, parveke;2019;Kerrostalo;269000;115.05;29.5;1;4;6;Lauttasaari;Helsinki
-Katajaharjuntie 17 B, Lauttasaari, Helsinki●1h+kk+kph;175000;25.5;Katajaharjuntie 17 B, Lauttasaari, Helsinki;1h+kk+kph;1962;Kerrostalo;175000;160.65;25.5;1;2;4;Lauttasaari;Helsinki
-Kiviaidankatu 3 A, Vattuniemi, Helsinki●1h, avok, kph, las. p;287900;32.5;Kiviaidankatu 3 A, Vattuniemi, Helsinki;1h, avok, kph, las. p;2016;Kerrostalo;287900;162.50;32.5;1;4;7;Vattuniemi;Helsinki
-Särkiniementie 3b B63, Lauttasaari, Helsinki●1h + kt;281840;25;Särkiniementie 3b B63, Lauttasaari, Helsinki;1h + kt;2024;Kerrostalo;281840;N/A;25;1;4;7;Lauttasaari;Helsinki
-Nahkahousuntie 6 A, Lauttasaari, Helsinki●1H, KK, KPH, LASIT.PARV.;210000;33.5;Nahkahousuntie 6 A, Lauttasaari, Helsinki;1H, KK, KPH, LASIT.PARV.;1974;Kerrostalo;210000;160.80;33.5;1;7;7;Lauttasaari;Helsinki
-Katajaharjuntie 5 A, Lauttasaari, Helsinki●1H+K+KPH+ransk.parveke (yj 1H);248000;42;Katajaharjuntie 5 A, Lauttasaari, Helsinki;1H+K+KPH+ransk.parveke (yj 1H);1956;Kerrostalo;248000;231;42;1;1;4;Lauttasaari;Helsinki
-Puistokaari 14 A, Lauttasaari, Helsinki●1h, kk. kph;180000;30.5;Puistokaari 14 A, Lauttasaari, Helsinki;1h, kk. kph;1975;Kerrostalo;180000;274.50;30.5;1;3;3;Lauttasaari;Helsinki
-Puistokaari 17 C, Lauttasaari, Helsinki●1h+k+alk.+kph+las.parv.;219000;27.2;Puistokaari 17 C, Lauttasaari, Helsinki;1h+k+alk.+kph+las.parv.;1962;Kerrostalo;219000;156.40;27.2;1;3;4;Lauttasaari;Helsinki
-Bermudankatu 5 B, Jätkäsaari, Helsinki●1h, k, kph, ranskalainen parveke;268000;29;Bermudankatu 5 B, Jätkäsaari, Helsinki;1h, k, kph, ranskalainen parveke;2021;Kerrostalo;268000;130.50;29;1;4;6;Jätkäsaari;Helsinki
-Runeberginkatu 65, Taka-Töölö, Helsinki●Tilava yksiö sisäpihan rauhassa Taka-Töölössä!;215000;36;Runeberginkatu 65, Taka-Töölö, Helsinki;Tilava yksiö sisäpihan rauhassa Taka-Töölössä!;1927;Kerrostalo;215000;208.80;36;1;1;6;Taka-Töölö;Helsinki
-Malminkatu 32, Kamppi, Helsinki●1h, avokeittiö, parvi, kph/wc, eteinen;168000;19.4;Malminkatu 32, Kamppi, Helsinki;1h, avokeittiö, parvi, kph/wc, eteinen;1932;Kerrostalo;168000;145.50;19.4;1;3;4;Kamppi;Helsinki
-Särkiniementie 9, Lauttasaari, Helsinki●1h, k, kph ja lasitettu parveke;198000;32.5;Särkiniementie 9, Lauttasaari, Helsinki;1h, k, kph ja lasitettu parveke;1973;Kerrostalo;198000;152.75;32.5;1;3;6;Lauttasaari;Helsinki
-Lounaisväylä 3 A 5, Lauttasaari, Helsinki●1h+k+alk+kph+las.parv;210000;30;Lounaisväylä 3 A 5, Lauttasaari, Helsinki;1h+k+alk+kph+las.parv;1960;Kerrostalo;210000;180;30;1;2;2;Lauttasaari;Helsinki
-Hakolahdenkuja 4 A, Lauttasaari, Helsinki●1h, kk, kph, parv;245000;30;Hakolahdenkuja 4 A, Lauttasaari, Helsinki;1h, kk, kph, parv;1960;Luhtitalo;245000;363;30;1;1;2;Lauttasaari;Helsinki
-Särkiniementie 3b A13, Lauttasaari, Helsinki●1h + kt;294000;27.5;Särkiniementie 3b A13, Lauttasaari, Helsinki;1h + kt;2024;Kerrostalo;294000;N/A;27.5;1;2;7;Lauttasaari;Helsinki
-Otavantie 7 D 50, Lauttasaari, Helsinki●1h + kk + alkovi + kph + parveke;289000;37;Otavantie 7 D 50, Lauttasaari, Helsinki;1h + kk + alkovi + kph + parveke;1941;Kerrostalo;289000;218;37;1;3;4;Lauttasaari;Helsinki
-Lauttasaarentie 28, Lauttasaari, Helsinki●1h + avok + p;329000;29;Lauttasaarentie 28, Lauttasaari, Helsinki;1h + avok + p;2017;Kerrostalo;329000;159.50;29;1;2;7;Lauttasaari;Helsinki
-Katajaharjuntie 13 B, Lauttasaari, Helsinki●1h+kk+kh;189000;28;Katajaharjuntie 13 B, Lauttasaari, Helsinki;1h+kk+kh;1963;Kerrostalo;189000;126;28;1;3;4;Lauttasaari;Helsinki
-Nahkahousuntie 5, Lauttasaari, Helsinki●1h + k+ p;273000;28.5;Nahkahousuntie 5, Lauttasaari, Helsinki;1h + k+ p;2019;Kerrostalo;273000;148.20;28.5;1;4;8;Lauttasaari;Helsinki
-Otavantie 9 C, Lauttasaari, Helsinki●1h, avok, kph;299900;27.5;Otavantie 9 C, Lauttasaari, Helsinki;1h, avok, kph;2017;Kerrostalo;299900;162.25;27.5;1;5;6;Lauttasaari;Helsinki
-Melkonkatu 8 A, Lauttasaari, Helsinki●1h+avokeittiö+kph+parveke;239000;36;Melkonkatu 8 A, Lauttasaari, Helsinki;1h+avokeittiö+kph+parveke;1989;Kerrostalo;239000;180;36;1;3;5;Lauttasaari;Helsinki
-Melkonkatu, Lauttasaari, Helsinki●1h + k + wc;215000;52.5;Melkonkatu, Lauttasaari, Helsinki;1h + k + wc;2013;Kerrostalo;215000;313.95;52.5;1;1;N/A;Lauttasaari;Helsinki
-Hakolahdentie 1, Lauttasaari, Helsinki●1h + avok + p;239000;25;Hakolahdentie 1, Lauttasaari, Helsinki;1h + avok + p;1959;Kerrostalo;239000;102.50;25;1;5;5;Lauttasaari;Helsinki
-Melkonkatu 11, Lauttasaari, Helsinki●2h+k + s + p;398000;60.5;Melkonkatu 11, Lauttasaari, Helsinki;2h+k + s + p;2004;Kerrostalo;398000;242;60.5;1;2;9;Lauttasaari;Helsinki
-Bermudankatu 5 B, Jätkäsaari, Helsinki●1h, k, kph, ranskalainen parveke;268000;29;Bermudankatu 5 B, Jätkäsaari, Helsinki;1h, k, kph, ranskalainen parveke;2021;Kerrostalo;268000;130.50;29;1;4;6;Jätkäsaari;Helsinki
-Runeberginkatu 65, Taka-Töölö, Helsinki●Tilava yksiö sisäpihan rauhassa Taka-Töölössä!;215000;36;Runeberginkatu 65, Taka-Töölö, Helsinki;Tilava yksiö sisäpihan rauhassa Taka-Töölössä!;1927;Kerrostalo;215000;208.80;36;1;1;6;Taka-Töölö;Helsinki
-Malminkatu 32, Kamppi, Helsinki●1h, avokeittiö, parvi, kph/wc, eteinen;168000;19.4;Malminkatu 32, Kamppi, Helsinki;1h, avokeittiö, parvi, kph/wc, eteinen;1932;Kerrostalo;168000;145.50;19.4;1;3;4;Kamppi;Helsinki
+Kaljaasi Fortunan katu 1 C, Kalasatama, Helsinki●2h+k+kph+et+las.parv;339000;38;Kaljaasi Fortunan katu 1 C, Kalasatama, Helsinki;2h+k+kph+et+las.parv;2021;Kerrostalo;339000;167.20;38;2;4;12;Kalasatama;Helsinki
+Tukkutorinkuja 16 A, Kalasatama, Helsinki●2h+kt;348000;40.5;Tukkutorinkuja 16 A, Kalasatama, Helsinki;2h+kt;2019;Kerrostalo;348000;166.05;40.5;2;7;8;Kalasatama;Helsinki
+Verkkoneula 5 C 70, Kalasatama, Helsinki●2h + kt;38652;44.5;Verkkoneula 5 C 70, Kalasatama, Helsinki;2h + kt;2024;Kerrostalo;N/A;N/A;44.5;2;4;10;Kalasatama;Helsinki
+Vanha talvitie 31 A39, Kalasatama, Helsinki●1h+kph;378200;61;Vanha talvitie 31 A39, Kalasatama, Helsinki;1h+kph;2024;Kerrostalo;378200;N/A;61;2;6;N/A;Kalasatama;Helsinki
+Verkkosaarenranta 2 A 11, Kalasatama, Helsinki●2h + avok + p;338350;45;Verkkosaarenranta 2 A 11, Kalasatama, Helsinki;2h + avok + p;2025;Kerrostalo;338350;N/A;45;2;3;6;Kalasatama;Helsinki
+Verkkosaarenkatu 12 A 14, Kalasatama, Helsinki;442000;52;Verkkosaarenkatu 12 A 14, Kalasatama, Helsinki;N/A;2024;Kerrostalo;442000;N/A;52;2;4;6;Kalasatama;Helsinki
+Verkkosaarenkatu 12 A 4, Kalasatama, Helsinki●2h, avok, kph, avoterassi;335000;43;Verkkosaarenkatu 12 A 4, Kalasatama, Helsinki;2h, avok, kph, avoterassi;2024;Kerrostalo;335000;N/A;43;2;2;5;Kalasatama;Helsinki
+Sompasaarenlaituri 24 H 36, Kalasatama, Helsinki●2h+kt+s;648000;64;Sompasaarenlaituri 24 H 36, Kalasatama, Helsinki;2h+kt+s;2024;Kerrostalo;648000;N/A;64;2;3;6;Kalasatama;Helsinki
+Antareksenkatu 22 A, Kalasatama, Helsinki●2h+avok+kph/wc+sauna+parveke (yj. mukaan 2h+kt+s);369000;51.5;Antareksenkatu 22 A, Kalasatama, Helsinki;2h+avok+kph/wc+sauna+parveke (yj. mukaan 2h+kt+s);2013;Kerrostalo;369000;290.20;51.5;2;5;6;Kalasatama;Helsinki
+Capellan puistotie 26 A, Kalasatama, Helsinki●2h+k+kph+lasitettu parv.;299000;54;Capellan puistotie 26 A, Kalasatama, Helsinki;2h+k+kph+lasitettu parv.;2022;Kerrostalo;299000;356.40;54;2;1;7;Kalasatama;Helsinki
+Vanha talvitie 31 A15, Kalasatama, Helsinki●1h+kph;362850;61.5;Vanha talvitie 31 A15, Kalasatama, Helsinki;1h+kph;2024;Kerrostalo;362850;N/A;61.5;2;3;N/A;Kalasatama;Helsinki
+Verkkoneula 5 C 98, Kalasatama, Helsinki●2h + kt;39728;44;Verkkoneula 5 C 98, Kalasatama, Helsinki;2h + kt;2024;Kerrostalo;N/A;N/A;44;2;8;10;Kalasatama;Helsinki
+Sompasaarenlaituri 24 H 41, Kalasatama, Helsinki●2h+kt+s;620600;54.5;Sompasaarenlaituri 24 H 41, Kalasatama, Helsinki;2h+kt+s;2024;Kerrostalo;620600;N/A;54.5;2;5;6;Kalasatama;Helsinki
+Sörnäistenlaituri 5 A, Kalasatama, Helsinki●2 h + kt + parvi;520000;52;Sörnäistenlaituri 5 A, Kalasatama, Helsinki;2 h + kt + parvi;2017;Kerrostalo;520000;N/A;52;2;1;8;Kalasatama;Helsinki
+Capellan puistotie 8 B, Kalasatama, Helsinki●2-3h, k, kph, s, las.parveke;449500;65.5;Capellan puistotie 8 B, Kalasatama, Helsinki;2-3h, k, kph, s, las.parveke;2013;Kerrostalo;449500;369.09;65.5;2;2;6;Kalasatama;Helsinki
+Sörnäistenlaituri 3 G, Kalasatama, Helsinki●2h+k+sauna;398000;53.5;Sörnäistenlaituri 3 G, Kalasatama, Helsinki;2h+k+sauna;2013;Kerrostalo;398000;267.50;53.5;2;5;7;Kalasatama;Helsinki
+Englantilaisaukio 10 A, Kalasatama, Helsinki●2 h, k, viherh,  kph, vh;468000;47.5;Englantilaisaukio 10 A, Kalasatama, Helsinki;2 h, k, viherh,  kph, vh;2021;Kerrostalo;468000;294.50;47.5;2;20;32;Kalasatama;Helsinki
+Pengerkatu 29 B, Kallio, Helsinki●2 h+k;257000;51.4;Pengerkatu 29 B, Kallio, Helsinki;2 h+k;1937;Kerrostalo;257000;272.42;51.4;2;2;7;Kallio;Helsinki
+Vesannontie 5, Vallila, Helsinki●2h, avok, kph, parveke;189000;32.5;Vesannontie 5, Vallila, Helsinki;2h, avok, kph, parveke;1938;Kerrostalo;189000;351;32.5;2;1;3;Vallila;Helsinki
+Capellan puistotie 3 C, Kalasatama, Helsinki●2h+avok+kph (yj:n mukaan 1h+ks);262000;32;Capellan puistotie 3 C, Kalasatama, Helsinki;2h+avok+kph (yj:n mukaan 1h+ks);2013;Kerrostalo;262000;160;32;2;6;7;Kalasatama;Helsinki
+Työpajanpiha 2 C, Kalasatama, Helsinki●2h+avok+kph+parveke;368000;53;Työpajanpiha 2 C, Kalasatama, Helsinki;2h+avok+kph+parveke;2021;Kerrostalo;368000;233.20;53;2;4;16;Kalasatama;Helsinki
+Capellan puistotie 26 A, Kalasatama, Helsinki●2h, avok, kh ( 2h+kt);349000;54.5;Capellan puistotie 26 A, Kalasatama, Helsinki;2h, avok, kh ( 2h+kt);2022;Kerrostalo;349000;359.70;54.5;2;6;7;Kalasatama;Helsinki
+Konttisatamankatu 2 G 27, Kalasatama, Helsinki●2h+kt;480900;37;Konttisatamankatu 2 G 27, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;480900;N/A;37;2;6;6;Kalasatama;Helsinki
+Vanha talvitie 31 A42, Kalasatama, Helsinki●1h+kph;393600;61.5;Vanha talvitie 31 A42, Kalasatama, Helsinki;1h+kph;2024;Kerrostalo;393600;N/A;61.5;2;7;N/A;Kalasatama;Helsinki
+Verkkoneula 5 C 60, Kalasatama, Helsinki●2h + k + p;35507;40.5;Verkkoneula 5 C 60, Kalasatama, Helsinki;2h + k + p;2024;Kerrostalo;N/A;N/A;40.5;2;3;10;Kalasatama;Helsinki
+Capellan puistotie 13 B, Kalasatama, Helsinki●2h+avok+kph+vh+iso lasitettu parveke;389000;42.5;Capellan puistotie 13 B, Kalasatama, Helsinki;2h+avok+kph+vh+iso lasitettu parveke;2021;Kerrostalo;389000;242.25;42.5;2;5;7;Kalasatama;Helsinki
+Englantilaisaukio 10, Kalasatama, Helsinki●2h+kt;459000;47.5;Englantilaisaukio 10, Kalasatama, Helsinki;2h+kt;2021;Kerrostalo;459000;294.50;47.5;2;17;32;Kalasatama;Helsinki
+Tukkutorinkuja 16 A, Kalasatama, Helsinki●2h+kt;335000;40.5;Tukkutorinkuja 16 A, Kalasatama, Helsinki;2h+kt;2019;Kerrostalo;335000;153.90;40.5;2;5;8;Kalasatama;Helsinki
+Sörnäistenlaituri 3, Kalasatama, Helsinki●2h + avok + s + p;485000;54.5;Sörnäistenlaituri 3, Kalasatama, Helsinki;2h + avok + s + p;2013;Kerrostalo;485000;267.05;54.5;2;3;8;Kalasatama;Helsinki
+Kalasatamankatu 9 A, Kalasatama, Helsinki●2h+kt+viherh.;645000;57.5;Kalasatamankatu 9 A, Kalasatama, Helsinki;2h+kt+viherh.;2019;Kerrostalo;645000;327.75;57.5;2;34;35;Kalasatama;Helsinki
+Työpajanpiha 2 C, Kalasatama, Helsinki●2h+k;399000;44.5;Työpajanpiha 2 C, Kalasatama, Helsinki;2h+k;2021;Kerrostalo;399000;N/A;44.5;2;2;16;Kalasatama;Helsinki
+Kalasatamankatu 9 A46, Kalasatama, Helsinki●2h+avok+kph+vh+viherh;369000;37;Kalasatamankatu 9 A46, Kalasatama, Helsinki;2h+avok+kph+vh+viherh;2019;Kerrostalo;369000;210.90;37;2;10;35;Kalasatama;Helsinki
+Capellankuja 4, Kalasatama, Helsinki●1-2h, avokeittiö, kph, piha (YJ: 1H+KT+alk.);393000;45.5;Capellankuja 4, Kalasatama, Helsinki;1-2h, avokeittiö, kph, piha (YJ: 1H+KT+alk.);2021;Kerrostalo;393000;218.40;45.5;2;1;6;Kalasatama;Helsinki
+Kalasatamankatu 20, Kalasatama, Helsinki●2 h, avok, kph, lasitettu parveke;295000;43.5;Kalasatamankatu 20, Kalasatama, Helsinki;2 h, avok, kph, lasitettu parveke;2020;Kerrostalo;295000;404.55;43.5;2;4;7;Kalasatama;Helsinki
+Kalasatamankatu, Verkkosaari, Helsinki●2h + s;449000;48.5;Kalasatamankatu, Verkkosaari, Helsinki;2h + s;2019;Kerrostalo;449000;270;48.5;2;13;35;Verkkosaari;Helsinki
+Englantilaisaukio 10 A, Kalasatama, Helsinki●2h+kt (yhtiöjärjestyksen mukaan 3h+kt);628000;59.5;Englantilaisaukio 10 A, Kalasatama, Helsinki;2h+kt (yhtiöjärjestyksen mukaan 3h+kt);2021;Kerrostalo;628000;368.90;59.5;2;22;32;Kalasatama;Helsinki
+Leonkatu 19 C, Kalasatama, Helsinki●2h, k, kph, s, p;479900;65.5;Leonkatu 19 C, Kalasatama, Helsinki;2h, k, kph, s, p;2013;Kerrostalo;479900;369.09;65.5;2;5;6;Kalasatama;Helsinki
+Capellanranta 4 A, Kalasatama, Helsinki●2h, kt;328000;42.5;Capellanranta 4 A, Kalasatama, Helsinki;2h, kt;2019;Kerrostalo;328000;191.25;42.5;2;2;8;Kalasatama;Helsinki
+Konttinosturinkuja 2 E 3, Kalasatama, Helsinki●2h+kt;502800;56.5;Konttinosturinkuja 2 E 3, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;502800;N/A;56.5;2;2;16;Kalasatama;Helsinki
+Sompasaarenlaituri 24 H 44, Kalasatama, Helsinki●2h+kt+s;638700;54.5;Sompasaarenlaituri 24 H 44, Kalasatama, Helsinki;2h+kt+s;2024;Kerrostalo;638700;N/A;54.5;2;6;6;Kalasatama;Helsinki
+Sompasaarenlaituri 24 H 40, Kalasatama, Helsinki●2h+kt+s;668600;64;Sompasaarenlaituri 24 H 40, Kalasatama, Helsinki;2h+kt+s;2024;Kerrostalo;668600;N/A;64;2;4;6;Kalasatama;Helsinki
+Sompasaarenlaituri 24 H 37, Kalasatama, Helsinki●2h+kt+s;602500;54.5;Sompasaarenlaituri 24 H 37, Kalasatama, Helsinki;2h+kt+s;2024;Kerrostalo;602500;N/A;54.5;2;4;6;Kalasatama;Helsinki
+Sompasaarenlaituri 24 H 33, Kalasatama, Helsinki●2h+kt+s;584400;54.5;Sompasaarenlaituri 24 H 33, Kalasatama, Helsinki;2h+kt+s;2024;Kerrostalo;584400;N/A;54.5;2;3;6;Kalasatama;Helsinki
+Pengerkatu 29 B, Kallio, Helsinki●2 h+k;257000;51.4;Pengerkatu 29 B, Kallio, Helsinki;2 h+k;1937;Kerrostalo;257000;272.42;51.4;2;2;7;Kallio;Helsinki
+Helsinginkatu 34 C, Kallio, Helsinki●2h, avok, kph, s, et, parveke;298000;46;Helsinginkatu 34 C, Kallio, Helsinki;2h, avok, kph, s, et, parveke;2008;Kerrostalo;298000;345;46;2;2;8;Kallio;Helsinki
+Vesannontie 5, Vallila, Helsinki●2h, avok, kph, parveke;189000;32.5;Vesannontie 5, Vallila, Helsinki;2h, avok, kph, parveke;1938;Kerrostalo;189000;351;32.5;2;1;3;Vallila;Helsinki
+Sompasaarenlaituri 24 H 32, Kalasatama, Helsinki●2h+kt+s;600700;64;Sompasaarenlaituri 24 H 32, Kalasatama, Helsinki;2h+kt+s;2024;Kerrostalo;600700;N/A;64;2;2;6;Kalasatama;Helsinki
+Sompasaarenlaituri 24 H 29, Kalasatama, Helsinki●2h+kt+s;554200;54.5;Sompasaarenlaituri 24 H 29, Kalasatama, Helsinki;2h+kt+s;2024;Kerrostalo;554200;N/A;54.5;2;2;6;Kalasatama;Helsinki
+Konttisatamankatu 2 G 24, Kalasatama, Helsinki●2h+kt;466700;37;Konttisatamankatu 2 G 24, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;466700;N/A;37;2;5;6;Kalasatama;Helsinki
+Konttisatamankatu 2 G 21, Kalasatama, Helsinki●2h+kt;452600;37;Konttisatamankatu 2 G 21, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;452600;N/A;37;2;4;6;Kalasatama;Helsinki
+Konttisatamankatu 2 G 18, Kalasatama, Helsinki●2h+kt;438500;37;Konttisatamankatu 2 G 18, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;438500;N/A;37;2;3;6;Kalasatama;Helsinki
+Konttisatamankatu 2 G 16, Kalasatama, Helsinki●2h+kt;419800;37;Konttisatamankatu 2 G 16, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;419800;N/A;37;2;2;6;Kalasatama;Helsinki
+Konttisatamankatu 2 F 10, Kalasatama, Helsinki●2h+kt;461700;37;Konttisatamankatu 2 F 10, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;461700;N/A;37;2;5;6;Kalasatama;Helsinki
+Konttisatamankatu 2 F 7, Kalasatama, Helsinki●2h+kt;447700;37;Konttisatamankatu 2 F 7, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;447700;N/A;37;2;4;6;Kalasatama;Helsinki
+Konttisatamankatu 2 F 4, Kalasatama, Helsinki●2h+kt;433800;37;Konttisatamankatu 2 F 4, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;433800;N/A;37;2;3;6;Kalasatama;Helsinki
+Konttisatamankatu 2 F 1, Kalasatama, Helsinki●2h+kt;415200;37;Konttisatamankatu 2 F 1, Kalasatama, Helsinki;2h+kt;2024;Kerrostalo;415200;N/A;37;2;2;6;Kalasatama;Helsinki
+Pengerkatu 29 B, Kallio, Helsinki●2 h+k;257000;51.4;Pengerkatu 29 B, Kallio, Helsinki;2 h+k;1937;Kerrostalo;257000;272.42;51.4;2;2;7;Kallio;Helsinki
+Helsinginkatu 34 C, Kallio, Helsinki●2h, avok, kph, s, et, parveke;298000;46;Helsinginkatu 34 C, Kallio, Helsinki;2h, avok, kph, s, et, parveke;2008;Kerrostalo;298000;345;46;2;2;8;Kallio;Helsinki
+Vesannontie 5, Vallila, Helsinki●2h, avok, kph, parveke;189000;32.5;Vesannontie 5, Vallila, Helsinki;2h, avok, kph, parveke;1938;Kerrostalo;189000;351;32.5;2;1;3;Vallila;Helsinki
+Pengerkatu 29 B, Kallio, Helsinki●2 h+k;257000;51.4;Pengerkatu 29 B, Kallio, Helsinki;2 h+k;1937;Kerrostalo;257000;272.42;51.4;2;2;7;Kallio;Helsinki
+Helsinginkatu 34 C, Kallio, Helsinki●2h, avok, kph, s, et, parveke;298000;46;Helsinginkatu 34 C, Kallio, Helsinki;2h, avok, kph, s, et, parveke;2008;Kerrostalo;298000;345;46;2;2;8;Kallio;Helsinki
+Vesannontie 5, Vallila, Helsinki●2h, avok, kph, parveke;189000;32.5;Vesannontie 5, Vallila, Helsinki;2h, avok, kph, parveke;1938;Kerrostalo;189000;351;32.5;2;1;3;Vallila;Helsinki

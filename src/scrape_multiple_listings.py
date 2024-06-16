@@ -1,3 +1,7 @@
+"""
+Script to scrape property listings and details from a real estate website.
+"""
+
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -9,6 +13,15 @@ import csv
 import re
 
 def fetch_listing_urls(base_url):
+    """
+    Fetch all listing URLs from the given base URL.
+    
+    Args:
+        base_url (str): The base URL to fetch the listings from.
+
+    Returns:
+        list: A list of listing URLs.
+    """
     all_listing_urls = []
     page_index = 1
     while True:
@@ -44,7 +57,7 @@ def fetch_listing_urls(base_url):
         print(f'Found {len(listing_urls)} listing URLs on page {page_index}')
 
         all_listing_urls.extend(listing_urls)
-        if len(listing_urls) < 25:
+        if len(listing_urls) < 10:
             break
 
         page_index += 1
@@ -52,6 +65,16 @@ def fetch_listing_urls(base_url):
     return all_listing_urls
 
 def parse_numeric_value(value, unit=None):
+    """
+    Parse numeric values from strings, handling units and formatting.
+    
+    Args:
+        value (str): The string containing the numeric value.
+        unit (str, optional): The unit to be removed from the string. Defaults to None.
+
+    Returns:
+        str: The parsed numeric value as a string.
+    """
     if unit:
         value = value.split(unit)[0]
     value = re.sub(r"[^\d,\.]", "", value)
@@ -59,6 +82,15 @@ def parse_numeric_value(value, unit=None):
     return value
 
 def fetch_property_details(url):
+    """
+    Fetch property details from a given URL.
+    
+    Args:
+        url (str): The URL of the property listing.
+
+    Returns:
+        dict: A dictionary containing property details.
+    """
     print(f'Scraping URL: {url}')
     response = requests.get(url)
 
@@ -163,6 +195,13 @@ def fetch_property_details(url):
     return property_details
 
 def save_to_csv(data, filename):
+    """
+    Save the property details to a CSV file.
+    
+    Args:
+        data (list): List of dictionaries containing property details.
+        filename (str): The name of the file to save the data to.
+    """
     with open(filename, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter=';', quoting=csv.QUOTE_MINIMAL)
         headers = [
@@ -207,6 +246,9 @@ def save_to_csv(data, filename):
     print(f'Data saved to {filename}')
 
 def main():
+    """
+    Main function to execute the scraping process.
+    """
     use_default = input('Do you want to use the default URL? (yes/no): ').strip().lower()
     if use_default == 'yes':
         base_url = 'https://asunnot.oikotie.fi/myytavat-asunnot?locations=%5B%5B5695451,4,%22Kalasatama,%20Helsinki%22%5D%5D&cardType=100&roomCount%5B%5D=2'
