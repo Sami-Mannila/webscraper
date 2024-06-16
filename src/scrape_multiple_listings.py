@@ -1,8 +1,3 @@
-"""
-A web scraper to extract multiple real estate property listings
-from a real estate website and save them to a CSV file.
-"""
-
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -10,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import pandas as pd
+import csv
 
 def fetch_listing_urls(url):
     """
@@ -76,33 +72,82 @@ def fetch_property_details(url):
     title_tag = soup.find('h1', class_='heading heading--no-styling listing-header__headline listing-header__headline--secondary customer-color margined margined--v15')
     title = title_tag.text.strip() if title_tag else 'N/A'
     
-    # Print the HTML around the price for debugging
-    price_container = soup.select_one('div.card-v2-text-container__group.card-v2-text-container__group--boxed')
-    if price_container:
-        print(f'Price container HTML:\n{price_container.prettify()}')
+    # Extract price and size
+    header_primary = soup.find('h2', class_='heading heading--title-1 listing-header__headline listing-header__headline--primary customer-color')
+    price = 'N/A'
+    size = 'N/A'
+    if header_primary:
+        header_texts = header_primary.find_all('span', class_='listing-header__text')
+        if len(header_texts) >= 2:
+            price = header_texts[0].text.strip()
+            size = header_texts[1].text.strip()
     
-    # Extract price
-    price_tag = price_container.select_one('div.card-v2-text-container__column.card-v2-text-container__column--desktop-wide > h2.card-v2-text-container__title.heading.heading--title-3.ng-star-inserted') if price_container else None
-    price = price_tag.text.strip() if price_tag else 'N/A'
-    
-    # Extract size
-    size_tag = soup.select_one('div.card-v2-text-container__column:not(.card-v2-text-container__column--desktop-wide) > h2.card-v2-text-container__title.heading.heading--title-3.ng-star-inserted')
-    size = size_tag.text.strip() if size_tag else 'N/A'
-    
-    # Extract location
-    location_tag = soup.select_one('dd.info-table__value')
-    location = ' '.join([part.text for part in location_tag.find_all('span', class_='link__text')]) if location_tag else 'N/A'
-    
-    # Extract description
-    description_tag = soup.find('div', class_='listing-overview')
-    description = ' '.join([p.text.strip() for p in description_tag.find_all('p')]) if description_tag else 'N/A'
+    # Extract address
+    address_tag = title_tag.find('span', class_='listing-header__text')
+    address = address_tag.text.strip() if address_tag else 'N/A'
 
+    # Extract description
+    description_tag = soup.find('span', class_='listing-header__text listing-header__text--cut-overflow')
+    description = description_tag.text.strip() if description_tag else 'N/A'
+
+    # Initialize variables for additional details
+    building_year = 'N/A'
+    apartment_type = 'N/A'
+    debt_free_price = 'N/A'
+    maintenance_charge = 'N/A'
+    living_area = 'N/A'
+    rooms = 'N/A'
+    floor = 'N/A'
+    district = 'N/A'
+    city = 'N/A'
+    
+    # Extract additional details from the content section
+    content_section = soup.find('div', class_='content content--primary-background center-on-wallpaper padded padded--v10-h15 padded--desktop-v10-h15 padded--xdesktop-v10-h0 padded--topless')
+    if content_section:
+        for dl in content_section.find_all('dl'):
+            dt = dl.find('dt', class_='details-grid__item-title')
+            dd = dl.find('dd', class_='details-grid__item-value')
+            if dt and dd:
+                key = dt.text.strip()
+                value = dd.text.strip()
+                if key == 'Rakennusvuosi':
+                    building_year = value
+                elif key == 'Rakennuksen tyyppi':
+                    apartment_type = value
+                elif key == 'Velaton hinta':
+                    debt_free_price = value
+                elif key == 'Hoitovastike':
+                    maintenance_charge = value
+                elif key == 'Asuinpinta-ala':
+                    living_area = value
+                elif key == 'Huoneita':
+                    rooms = value
+                elif key == 'Kerros':
+                    floor = value
+                elif key == 'Kaupunginosa':
+                    district = value
+                elif key == 'Kaupunki':
+                    city = value
+            else:
+                print(f"Failed to find dt or dd in {dl}")
+    else:
+        print("Content section not found")
+    
     property_details = {
         'Title': title,
         'Price': price,
         'Size': size,
-        'Location': location,
-        'Description': description
+        'Address': address,
+        'Description': description,
+        'Building Year': building_year,
+        'Apartment Type': apartment_type,
+        'Debt-free Price': debt_free_price,
+        'Maintenance Charge': maintenance_charge,
+        'Living Area': living_area,
+        'Rooms': rooms,
+        'Floor': floor,
+        'District': district,
+        'City': city
     }
 
     return property_details
@@ -115,8 +160,32 @@ def save_to_csv(data, filename):
         data (list): A list of dictionaries containing property details.
         filename (str): The name of the CSV file.
     """
-    df = pd.DataFrame(data)
-    df.to_csv(filename, index=False)
+    with open(filename, mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file, delimiter=';', quoting=csv.QUOTE_MINIMAL)
+        # Write the headers
+        headers = ['Title', 'Price', 'Size', 'Address', 'Description', 'Building Year', 'Apartment Type', 'Debt-free Price', 'Maintenance Charge', 'Living Area', 'Rooms', 'Floor', 'District', 'City']
+        writer.writerow(headers)
+        
+        # Write the data
+        for item in data:
+            row = [
+                item['Title'], 
+                item['Price'], 
+                item['Size'], 
+                item['Address'], 
+                item['Description'],
+                item['Building Year'],
+                item['Apartment Type'],
+                item['Debt-free Price'],
+                item['Maintenance Charge'],
+                item['Living Area'],
+                item['Rooms'],
+                item['Floor'],
+                item['District'],
+                item['City']
+            ]
+            writer.writerow(row)
+    
     print(f'Data saved to {filename}')
 
 def main():
