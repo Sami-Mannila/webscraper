@@ -249,7 +249,7 @@ def main():
     """
     Main function to execute the scraping process.
     """
-    use_default = input('Do you want to use the default URL? (yes/no): ').strip().lower()
+    use_default = input('Do you want to use the default URL (Listings from Kalasatama area)? (yes/no): ').strip().lower()
     if use_default == 'yes':
         base_url = 'https://asunnot.oikotie.fi/myytavat-asunnot?locations=%5B%5B5695451,4,%22Kalasatama,%20Helsinki%22%5D%5D&cardType=100&roomCount%5B%5D=2'
     else:
