@@ -4,14 +4,13 @@ Author: Sami Mannila
 This project contains scripts to scrape property listings and details from a real estate website. The data is saved into CSV files for further analysis or processing.
 
 ## Contents
-
-- `element.html`: Sample HTML file for reference.
-- `property_details.csv`: Example CSV file with property details.
 - `README.md`: This README file.
+- `src`: Directory containing the scraping scripts.
+- `oikotie_listing_page.html`: Sample HTML file for reference.
+- `property_details.csv`: Example CSV file with property details.
 - `properties.csv`: Another example CSV file with property details.
 - `venv`: Virtual environment for the project.
 - `.git`: Git version control directory.
-- `src`: Directory containing the scraping scripts.
 
 ## Requirements
 
