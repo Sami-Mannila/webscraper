@@ -20,29 +20,6 @@ This project contains scripts to scrape property listings and details from a rea
 - pandas
 - A web driver for your browser (ChromeDriver for Chrome or GeckoDriver for Firefox)
 
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository_url>
-   cd webscraper
-   ```
-
-2. **Set up a virtual environment**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. **Install Python dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Download and install the web driver for your browser**:
-   - [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
-   - [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
-
 ## Usage
 
 ### Scripts
